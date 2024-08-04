@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a, i {
+    text-decoration: none;
+}
+.row {
+    width: 100%;
+}
+.row .col-12 {
+    margin-bottom: 40px;
+}
+
+/* PART 1 */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 3px 3px gray;
+    margin-top: 10px;
+}
+header .text {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+header .text p {
+    color: #222222;
+    font-weight: 400;
+}
+header .sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+header .sign img {
+    width: 18px;
+}
+header .sign p {
+    font-size: 14px;
+}
+header .sign p.purple {
+    color: white;
+    background-color: #5920BC;
+    padding: 10px 25px;
+}
+/* PART 2 */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px 0 0 80px;
+    /* align-items: center; */
+}
+.container h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.services .card {
+    width: 400px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.services .image, .services .image img {
+    width: 400px;
+}
+.services .image {
+    height: 300px;
+    position: relative;
+}
+.services img {
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+.imgtext {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 62%;
+    left: 5%;
+    padding: 17px 0 17px 20px;
+}
+.imgtext>p {
+    font-size: 20px;
+}
+.imgtext .starts {
+    display: flex;
+}
+.imgtext .starts img {
+    width: 20px;
+    margin-right: 5px;
+}
+.imgtext .starts p {
+    opacity: 50%;
+}
+.cardtext {
+    margin-top: 20px;
+}
+.cardtext p {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    font-size: 14px;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+/* PART 3 */
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+}
+.dowland {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #EAE6FF;
+}
+.dowland>img {
+    width: 282px;
+    margin-top: 40px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.dowland .app h1 {
+    font-weight: 550;
+    font-family: "Montserrat";
+    margin: 30px 0 15px;
+}
+.dowland .app p {
+    width: 434px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    opacity: 70%;
+}
+.dowland .app .dowlandImage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.dowlandImage img.google {
+    width: 140px;
+    height: 60px;
+    object-fit: cover;
+}
+.izzi {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 50px 0 70px;
+}
+.izzi .major {
+    width: 300px;
+    background-color: #FCFBFE;
+    border: 1px solid #FCFBFE;
+    border-radius: 10px;
+    padding: 30px;
+}
+.izzi .link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.izzi .link p {
+    opacity: 70%;
+}
+.izzi .link p.black {
+    opacity: 100%;
+}
+.izzifooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #F2F6FC;
+    padding: 35px 0 70px;
+}
+.izzifooter .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.izzifooter .left img {
+    width: 20px;
+}
+.izzifooter .right {
+    display: flex;
+    gap: 20px;
+}
+
+
+
